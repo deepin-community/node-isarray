@@ -1,0 +1,25 @@
+Source: node-isarray
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Section: javascript
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+	       dh-sequence-nodejs,
+	       node-tape <!nocheck>,
+	       node-tap <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-isarray
+Vcs-Git: https://salsa.debian.org/js-team/node-isarray.git
+Homepage: https://github.com/juliangruber/isarray
+Testsuite: autopkgtest-pkg-nodejs
+
+Package: node-isarray
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: JavaScript Array#isArray for older browsers
+ isarray provides Arrray#isArray for older browsers.
+ .
+ This package contains the isarray module for Node.js.
+ .
+ Node.js is an event-based server-side JavaScript engine.
