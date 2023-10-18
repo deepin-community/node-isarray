@@ -12,6 +12,7 @@ Vcs-Browser: https://salsa.debian.org/js-team/node-isarray
 Vcs-Git: https://salsa.debian.org/js-team/node-isarray.git
 Homepage: https://github.com/juliangruber/isarray
 Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
 
 Package: node-isarray
 Architecture: all
